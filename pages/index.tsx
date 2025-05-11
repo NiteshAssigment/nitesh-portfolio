@@ -1,5 +1,5 @@
 import Layout from "../components/Layout";
-import { FaLinkedin, FaEnvelope, FaFileDownload } from "react-icons/fa";
+import { FaLinkedin, FaFileDownload } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const fadeInUp = {

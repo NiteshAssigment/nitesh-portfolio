@@ -11,7 +11,7 @@ const fadeInUp = {
 
 export default function Home({ currentYear }: { currentYear: number }) {
   return (
-    <Layout title="Nitesh Bisht | Software Engineer Portfolio" description="Portfolio of Nitesh Bisht, a Software Engineer specializing in modern web applications with React, Node.js, and more.">
+    <Layout title="Nitesh Bisht | Software Engineer Portfolio">
       <motion.div
         initial="initial"
         animate="animate"
@@ -50,7 +50,7 @@ export default function Home({ currentYear }: { currentYear: number }) {
         <motion.section variants={fadeInUp} className="bg-white shadow-lg rounded-xl p-8">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">About Me</h2>
           <p className="text-gray-700 leading-relaxed">
-            I'm a passionate Software Engineer with over 4 years of experience building scalable, user-friendly web applications. Skilled in modern JavaScript frameworks like React and Node.js, I thrive in solving complex problems and collaborating in Agile teams. My goal is to create impactful software that enhances user experiences.
+            I&rsquo;m a passionate Software Engineer with over 4 years of experience building scalable, user-friendly web applications. Skilled in modern JavaScript frameworks like React and Node.js, I thrive in solving complex problems and collaborating in Agile teams. My goal is to create impactful software that enhances user experiences.
           </p>
         </motion.section>
 
